@@ -31,5 +31,5 @@ public class Task {
     /**
      * 完成状态 -> 0 待办 1 进行 2 验收 3 延期 4完成
      */
-    private Integer completeStatus;
+    private CompleteStatus completeStatus;
 }

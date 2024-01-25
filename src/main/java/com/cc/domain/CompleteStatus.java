@@ -1,10 +1,13 @@
 package com.cc.domain;
 
 
+import lombok.Getter;
+
 /**
  * 任务完成状态枚举
  */
 
+@Getter
 public enum CompleteStatus {
 
     TODO (0, "未开始"),
@@ -19,14 +22,6 @@ public enum CompleteStatus {
     CompleteStatus(int value, String description) {
         this.value = value;
         this.description = description;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    public String getDescription() {
-        return description;
     }
 
     public static CompleteStatus fromValue(int value) {
