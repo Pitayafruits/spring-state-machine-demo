@@ -1,8 +1,6 @@
 package com.cc.domain;
 
 
-import lombok.Data;
-
 /**
  * 任务完成状态枚举
  */
